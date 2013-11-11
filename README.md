@@ -4,7 +4,7 @@ barista
 The open barista project.
 ----------------------------------
 
-[v0.1 design](https://www.dropbox.com/s/dv39nrz8y6h6y8z/2013-11-11%2011.37.28.jpg Design sketch, drip version)
+![v0.1 design](https://www.dropbox.com/s/dv39nrz8y6h6y8z/2013-11-11%2011.37.28.jpg "Drip version sketch")
 
 Project Goals
 -------------
