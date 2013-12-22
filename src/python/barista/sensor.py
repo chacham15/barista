@@ -1,10 +1,21 @@
-import RPi.GPIO as GPIO
+from barista.io import Input
 
 
-def carafe_is_low():
-    return True
+class Sensor(Input):
+    pass
 
 
-def heat_carafe():
-    return True
+class CarafeLevel(Sensor):
+    pass
 
+
+class CarafeTemp(Sensor):
+    pass
+
+
+class BrewLevel(Sensor):
+    pass
+
+
+class BrewTemp(Sensor):
+    pass

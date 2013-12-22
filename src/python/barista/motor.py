@@ -1,12 +1,12 @@
-from barista.pin import Pin
+from barista.io import Output
 
 
-class Motor(Pin):
+class Motor(Output):
     def start(self):
-        super(Motor, self).high()
+        super(Motor, self).write(True)
 
     def stop(self):
-        super(Motor, self).low()
+        super(Motor, self).write(False)
 
 
 class WaterPump(Motor):

@@ -1,7 +1,7 @@
-from barista.pin import Pin
+from barista.io import Output
 
 
-class Valve(Pin):
+class Valve(Output):
     pin = -1
 
     def open(self):
@@ -11,22 +11,21 @@ class Valve(Pin):
         super(Valve, self).low()
 
 
-ulass SoluteValve(Valve):
-    pin = 1
+class CoffeeOutlet(Valve):
+    pass
 
 
-class SolventValve(Valve):
-    pin = 2
+class WaterInlet(Valve):
+    pass
 
 
-class CarafeValve(Valve):
-    pin = 3
+class WaterPumpInlet(Valve):
+    pass
 
 
-class WaterPumpInletValve(Valve):
-    pin = 4
+class WaterPumpOutlet(Valve):
+    pass
 
 
-class WaterPumpExitValve(Vavle):
-    pin = 5
-
+class BrewOutlet(Valve):
+    pass
