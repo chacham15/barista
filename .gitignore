@@ -2,6 +2,8 @@
 *.o
 *.a
 *.so
+*.egg-info
+*.pyc
 
 # Folders
 _obj
